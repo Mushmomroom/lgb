@@ -70,4 +70,7 @@ defmodule Lgb.Profiles.Profile do
 
     # TODO: validate height, weight, zip to city is valid
   end
+
+  def get_lat_lng(%{geolocation: %{coordinates: {lng, lat}}}), do: {lat, lng}
+  def get_lat_lng(_), do: {nil, nil}
 end

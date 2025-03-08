@@ -10,7 +10,7 @@
 # Where 3rd-party dependencies like ExDoc output generated docs.
 /doc/
 
-# Ignore .fetch files in case you like to edit your project deps locally.
+# Ignore .fetch files in case you like to edit your project deps locally.<p></p>
 /.fetch
 
 # If the VM crashes, it generates a dump, let's ignore it too.
@@ -34,6 +34,10 @@ lgb-*.tar
 # In case you use Node.js/npm, you want to ignore these.
 npm-debug.log
 /assets/node_modules/
+
+# OS Specific Files
+.DS_Store
+Thumbs.db
 
 /.env
 

@@ -20,6 +20,7 @@ defmodule Lgb.Billing do
   """
   def list_stripe_customers do
     Repo.all(StripeCustomer)
+
   end
 
   @doc """
